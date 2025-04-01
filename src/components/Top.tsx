@@ -1,10 +1,12 @@
 const Top = () => {
     return (
-        <div className='top-section'>
-            <span>Free Delivery Over $99*</span>
-            <span>Free Click & Collect</span>
-            <span>30-Day Returns</span>
-        </div>
+        <section className='top-section'>
+            <section className="top">
+                <p>Free Delivery Over $99*</p>
+                <p>Free Click & Collect</p>
+                <p>30-Day Returns</p>
+            </section>
+        </section>
     )
 }
 export default Top
